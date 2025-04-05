@@ -6,9 +6,13 @@ The `median_filter` module is a parameterized digital filter designed to reduce 
 
 For applications such as ECG signal processing, where baseline wandering (low-frequency noise) is also a concern, the sliding window size can be increased. A larger window will allow the filter to extract and remove low-frequency variations as well.
 ## Demo for a real ECG signal that has been digitized and processed to remove spike noise.
+
 <img width="516" alt="Image" src="https://github.com/user-attachments/assets/a233f4e6-67e0-406f-834f-e0b7833112b6" />
+
 ## Demo of the ECG signal after extracting the baseline wandering noise component from the original signal.
+
 <img width="512" alt="Image" src="https://github.com/user-attachments/assets/81a7a211-b767-4536-9579-20b9aaca52d2" />
+
 ## Operation
 
 The module operates as follows:
